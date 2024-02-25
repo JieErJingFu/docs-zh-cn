@@ -392,7 +392,7 @@ export default {
 ```
 
 :::tip 提示
-`true-value` 和 `false-value` attributes 不会影响 `value` attribute，因为浏览器在表单提交时，并不会包含未选择的复选框。为了保证这两个值 (例如：“yes”和“no”) 的其中之一被表单提交，请使用单选按钮作为替代。
+`true-value` 和 `false-value` attributes 不会影响 `value` attribute。因为浏览器在表单提交时，并不会包含未选择的复选框，所以为了保证这两个值 (例如：“yes”和“no”) 的其中之一被表单提交，请使用单选按钮作为替代。
 :::
 
 ### 单选按钮 {#radio-1}
